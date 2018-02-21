@@ -1,0 +1,5 @@
+uint8 camera_id
+
+uavcan.Timestamp timestamp
+
+uint14 picture_id

@@ -1,0 +1,15 @@
+#
+# Generic camera status.
+#
+
+uint8 camera_id
+
+#
+# Camera axis orientation in body frame (not in fixed frame).
+# Please refer to the UAVCAN coordinate frame conventions.
+#
+float16 focal_lenght_mm
+float16 sensor_width_mm
+float16 sensor_height_mm
+uint14 image_width_pix
+uint14 image_height_pix

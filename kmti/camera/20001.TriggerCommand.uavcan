@@ -1,0 +1,13 @@
+#
+# Generic camera trigger
+#
+#
+
+uint8 camera_id
+
+#
+# In the angular velocity mode, this field contains a rate quaternion.
+# In the orientation mode, this field contains orientation either in fixed frame or in body frame.
+#
+
+float16 delay # Delay before triggering. 0 means as fast as possible
