@@ -1,5 +1,5 @@
 uint8 camera_id
 
-uavcan.Timestamp timestamp
+truncated uint56 usec     # Microseconds
 
 uint14 picture_id
