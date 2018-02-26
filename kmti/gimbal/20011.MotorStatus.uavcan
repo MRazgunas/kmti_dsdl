@@ -1,0 +1,5 @@
+#Generic gimbal motor status
+
+uint8 axis_id #Axis id
+
+float16 motor_pos #Radians
