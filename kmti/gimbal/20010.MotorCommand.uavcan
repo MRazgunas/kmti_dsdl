@@ -1,0 +1,10 @@
+#
+# Gimbal motor command
+#
+
+#Order: Pitch;Roll;Yaw
+#Phase command (units in radian)
+float16[3] cmd
+
+#Power [0:1]. values <= 0 disables PWM output
+float16[3] power
