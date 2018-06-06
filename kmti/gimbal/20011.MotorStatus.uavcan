@@ -2,4 +2,5 @@
 
 uint8 axis_id #Axis id
 
-float16 motor_pos #Radians
+float16 motor_pos_rad #Radians
+float16 motor_pos_rad_raw
